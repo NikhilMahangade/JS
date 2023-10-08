@@ -15,15 +15,13 @@ Num.push(7)
 Num.pop();
 console.log(Num.length);
 
+Num.slice(1,3)
+
 console.log(Array.isArray('Nikhil'));//false
 console.log(Array.from('Nikhil'));//[ 'N', 'i', 'k', 'h', 'i', 'l' ]
 let arr=Array.from('Harsh12');
 
-for(let i=0;i<=arr.length;i++){
-    if(arr[i]!=i){
-        console.log(arr[i]);
-    }
-    
-}
+
 console.log(arr);
+
 
